@@ -8,5 +8,6 @@ IF you have ssh just run your terminal and type "git clone <and your github repo
 
 TO create a file you should write touch <name of your file>
 
-git status
-git push
+git status is for to get the location of your current index file you are working on.
+git push is to update your file from your local system to your github
+git pull is to download your github file from github to your system.

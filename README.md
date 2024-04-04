@@ -4,7 +4,7 @@ first step is to make a ssh key{IF YOU DON'T HAVE ONE:
 
 *: first open your terminal on your local host-> run code ls -al ~/.ssh to check if you have any active ssh -> if you don't have any, run this code to generate a ssh "ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -> add new ssh by "eval "$(ssh-agent -s)" ssh-add ~/.ssh/id_rsa -> then write "cat ~/.ssh/id_rsa.pub" to check your public key for key part on step 1.
 
-IF you have ssh just run your terminal and type "git clone <and your github repository ssh lin>" and then you should run git pull to download readme file and then use git add <name of your file wanna push> -> git commit -m "Your message" -> git push and DONE.
+IF you have ssh just run your terminal and type "git clone <git@github.com:yourusername>" and then you should run git pull to download readme file and then use git add <name of your file wanna push> -> git commit -m "Your message" -> git push and DONE.
 
 TO create a file you should write touch <name of your file>
 

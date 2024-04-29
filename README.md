@@ -24,3 +24,4 @@ TO DELETE A FILE FROM YOUR GITHUB REPOSRITIRY{
   3: git push <name of the branch> : for me is git push main
   }
   
+to remove the file from your filesystem you can simply run rm <name of the file>

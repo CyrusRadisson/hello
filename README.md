@@ -25,3 +25,20 @@ TO DELETE A FILE FROM YOUR GITHUB REPOSRITIRY{
   }
   
 to remove the file from your filesystem you can simply run rm <name of the file>
+git log -- <name of the file> : this command cause to show you all the details about the file.
+
+TO RESTORE THE DELETED FILE{
+  1: git log --oneline -- <the file you deleted>-> you can find the file you deleted with its unique id
+  2: git checkout <number you found in step 1> -- <name of the file>
+  3: git add <name of the file>
+  4: git commit -m "restore file"
+  }
+
+
+
+
+
+
+
+
+  

@@ -12,4 +12,9 @@ git status is for to get the location of your current index file you are working
 git push is to update your file from your local system to your github
 git pull is to download your github file from github to your system.
 
-i change here
+git checkout -b "name" : it will make new branch in your repository.-> you use different branches for a file because many people maybe wanna adjust it so they can use the new branch and at the end merge to the main branch and modify the changes.
+
+git branch: it shows in which branch you are.
+git checkout main: it will direct you to the main branch user
+git merge style: here style is my branch name which i wanna merge the file to the main branch.
+

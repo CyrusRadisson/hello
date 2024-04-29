@@ -18,3 +18,9 @@ git branch: it shows in which branch you are.
 git checkout main: it will direct you to the main branch user
 git merge style: here style is my branch name which i wanna merge the file to the main branch.
 
+TO DELETE A FILE FROM YOUR GITHUB REPOSRITIRY{
+{1:git rm --cache <name of the file> it will remove the file from your github repository, but not from your filesystem.
+  2: git commit -m "your comment like remove the name of the file"
+  3: git push <name of the branch> : for me is git push main
+  }
+  
